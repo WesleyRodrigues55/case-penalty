@@ -56,7 +56,7 @@ Para iniciar é necessários que tenha instalado em sua máquina:
 - [Composer](https://getcomposer.org/)
 - [PHP](https://www.php.net/downloads) (v. >= 8.2)
 - [Node](https://nodejs.org/en/) (Recomendado versão LTS)
-- [NPM](https://getcomposer.org/) (Instalando o node, o npm vem junto.)
+- NPM (Instalando o node, o npm vem junto.)
 
 
 ## Como iniciar
@@ -113,6 +113,6 @@ Para iniciar é necessários que tenha instalado em sua máquina:
     ```
 
 
-após esse passo a passo você será possível de navegador no aplicativo, o link padrão é `http://127.0.0.1:8000/`.
+Após esse passo a passo você será possível de navegador no aplicativo, o link padrão é `http://127.0.0.1:8000/`.
 
 Inicie criando uma conta de usuário e acesse a aplicação. As funcionalidades de acordo com os requisitos descritos no início dessa documentação estão todas funcionais.
