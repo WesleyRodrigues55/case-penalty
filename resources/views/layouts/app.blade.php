@@ -15,9 +15,12 @@
     <main class="w-100">
         @include('components.navigation')
     
-        <div class="container px-4 py-5 overflow-y-scroll h-100" style="scrollbar-width: none;">
-            @yield('content')
+        <div class="overflow-y-scroll h-100">
+            <div class="container px-4 py-5">
+                @yield('content')
+            </div>
         </div>
+        
     </main>
 
     @include('components.toasts.index')
