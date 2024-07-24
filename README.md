@@ -4,6 +4,9 @@ O projeto faz parte de um case da empresa penalty em que participei.
 
 O projeto tem os seguintes requisitos:
 
+Implementar, utilizando o framework [Laravel](https://laravel.com/), um ambiente 
+administrativo para cadastro de representantes comerciais e clientes. 
+
 Cadastro de representante:
 - [x] Nome
 - [x] E-mail
@@ -113,6 +116,6 @@ Para iniciar é necessários que tenha instalado em sua máquina:
     ```
 
 
-Após esse passo a passo você será possível de navegador no aplicativo, o link padrão é `http://127.0.0.1:8000/`.
+Após esse passo a passo você será possível de navegar no aplicativo, o link padrão é `http://127.0.0.1:8000/`.
 
 Inicie criando uma conta de usuário e acesse a aplicação. As funcionalidades de acordo com os requisitos descritos no início dessa documentação estão todas funcionais.
