@@ -27,6 +27,22 @@ Cadastro de cliente:
 Funcionalidades adicionais:
 - [x] Listar representantes cadastrados e listar clientes cadastrados por representante
 
+Regras:
+
+1. Ao digitar o CEP, consumir a API (https://viacep.com.br/) para preencher 
+automaticamente as informações de logradouro, bairro, cidade e UF do 
+formulário; 
+2. A listagem de representantes deverá conter filtros por nome e e-mail; 
+3. Implementar a função de deletar representante; 
+4. Permitir alterar o representante do cliente; 
+5. Utilizar autenticação de usuário para o ambiente administrativo; 
+6. Se cliente for CPF, somente permitir o cadastro para maiores de 18 anos; 
+7. No front-end, utilizar Bootstrap (https://getbootstrap.com/), será analisado a 
+usabilidade e o responsivo (desktop, tablet e mobile); 
+8. Utilizar pelo menos duas boas práticas de segurança da informação em 
+formulários; 
+9. Disponibilizar o código fonte em um repositório git. 
+
 Criação do MER:
 
 A criação deste diagrama MER ajudará a entender quais tabelas adicionais foram criadas e quais suas relação, que neste caso são: representantes (1,n) - clientes (1, 1)
