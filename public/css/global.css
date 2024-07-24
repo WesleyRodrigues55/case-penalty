@@ -1,0 +1,48 @@
+body {
+    overflow: hidden;
+}
+
+main {
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sidebar-content {
+    width: 280px;
+}
+
+.show-sidebar {
+    display: block;
+}
+
+.hidden-sidebar {
+    display: none;
+}
+
+.content-homepage {
+    height: 140px;
+    color: #fff;
+}
+
+.icons {
+    font-size: 56px;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .sidebar-content {
+        display: none
+    }
+
+    .show-sidebar {
+        display: none
+    }
+
+    .hidden-sidebar {
+        display: block
+    }
+}
+
